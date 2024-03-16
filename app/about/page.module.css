@@ -4,7 +4,8 @@
     min-height: 100vh;
     background-image: url('/images/about_image.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: center;
 }
 
 .about_main {
@@ -18,11 +19,13 @@
 
 .about_title {
     padding-bottom: 1em;
+    font-size: 3vw;
 }
 
 .about_subtitle {
     text-align: start;
     margin-bottom: 1em;
+    font-size: 1.25vw;
 }
 
 .about_box {
@@ -30,7 +33,7 @@
     color: #231F20;
     width: 70%;
     height: 70%;
-    padding: 2em 10em 2em 10em;
+    padding: 0 10vw 0 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
