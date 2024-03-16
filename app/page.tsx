@@ -1,5 +1,8 @@
+import Footer from "./Footer";
 import About from "./about/page";
+import Contact from "./contact/page";
 import styles from "./page.module.css";
+import Portfolio from "./portfolio/page";
 
 export default function Home() {
   return (
@@ -15,6 +18,10 @@ export default function Home() {
       </main>
       <div id="about">
         <About/>
+        <Portfolio/>
+        <Contact/>
+        <img src="/images/quote_image.png" className={styles.quote}/>
+        <Footer/>
       </div>
     </div>
   );

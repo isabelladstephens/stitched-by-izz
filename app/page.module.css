@@ -2,7 +2,7 @@
 .home_container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url('/images/home_image.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -37,4 +37,25 @@
 
 .subtitle {
   font-size: 1.25rem;
+}
+
+.quote {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #F8F0DE;
+  height: 50vh;
+  color: #231F20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 20rem 5rem 20rem;
+}
+
+.footer p {
+  margin-top: 2rem;
 }
