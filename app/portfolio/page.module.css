@@ -18,3 +18,8 @@
     justify-content: flex-end;
     width: 80vw;
 }
+
+.view_all {
+    color: #231F20;
+    border-color: #231F20;
+}

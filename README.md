@@ -1,5 +1,5 @@
-## Check out the deployed stable version on vercel
-https://stitched-by-izz.vercel.app/
+## Check out the deployed stable version
+stitchedbyizz.com
 
 ## Running Locally
 In the root directory run *npm run dev*

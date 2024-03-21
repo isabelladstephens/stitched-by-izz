@@ -3,6 +3,26 @@
   src: url('/fonts/Migra-Extrabold.otf') format('opentype');
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -22,6 +42,7 @@ body {
 
 body {
   color: #F8F0DE;
+  background-color: #F8F0DE;
 }
 
 a {

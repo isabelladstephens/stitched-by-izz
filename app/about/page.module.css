@@ -39,3 +39,32 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Medium Devices */
+@media (min-width: 780px) and (max-width: 992px) {
+    .about_box {
+        padding: 10vw 10vw 10vw 10vw;
+        height: fit-content;
+    }
+    
+  }
+  
+  /* Small devices */
+  @media (max-width: 779px) {
+    .about_title {
+        padding-bottom: 0.5em;
+        font-size: 5vw;
+    }
+    
+    .about_subtitle {
+        text-align: start;
+        margin-bottom: 1em;
+        font-size: clamp(5px, 3vw, 12px);
+        
+    }
+
+    .about_box {
+        padding: 10vw 10vw 10vw 10vw;
+        height: fit-content;
+    }
+  }
