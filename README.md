@@ -1,4 +1,4 @@
-## Check out the deployed stable version on vercel
+## Check out the deployed stable version
 stitchedbyizz.com
 
 ## Running Locally
