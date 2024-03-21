@@ -10,7 +10,7 @@ export default function Contact() {
               I&apos;m open to questions and suggestions.
             </h1>
             <p className={styles.contact_subtitle}>
-                isabelladstephens@gmail.com
+                hello@stitchedbyizz.com
             </p>
         </div>
       </main>
