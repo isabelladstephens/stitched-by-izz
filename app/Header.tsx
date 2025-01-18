@@ -1,8 +1,13 @@
+'use client'
+import { usePathname } from "next/navigation";
 import styles from "./page.module.css";
 
 export default function Header() {
+  const pathname = usePathname();
+  const isPortfolioPage = pathname === "/portfolio";
+
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${isPortfolioPage ? styles.portfolioNav : ''}`}>
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/portfolio">Portfolio</a>

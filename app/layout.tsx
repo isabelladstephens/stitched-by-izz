@@ -5,11 +5,6 @@ import Header from "./Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Stitched By Izz",
-  description: "A handmade clothing portfolio by Isabella.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,6 +12,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+          <title>Stitched By Izz</title>
+          <meta name="description" content="A handmade clothing portfolio by Isabella." />
+          <link rel="icon" href="./favicon-logo.ico" />
+      </head>
       <body className={inter.className}>
         <Header/>
         {children}

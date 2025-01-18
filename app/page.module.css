@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.portfolioNav {
+  color: #231f20;
+}
+
 .home_main {
   margin-top: 10vw;
   display: flex;

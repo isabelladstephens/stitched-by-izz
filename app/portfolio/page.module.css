@@ -4,11 +4,11 @@
     justify-content: center;
     background-color: #F8F0DE;
     color: #231F20;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .portfolio_title {
-    margin-top: 5rem;
+    margin-top: 7rem;
     font-size: 7vw;
     text-align: right;
 }
@@ -22,4 +22,8 @@
 .view_all {
     color: #231F20;
     border-color: #231F20;
+}
+
+.carousel_container {
+    padding: 1rem;
 }
