@@ -15,7 +15,7 @@ export default function RootLayout({
       <head>
           <title>Stitched By Izz</title>
           <meta name="description" content="A handmade clothing portfolio by Isabella." />
-          <link rel="icon" href="./favicon-logo.ico" />
+          <link rel="icon" href="./favicon.ico" />
       </head>
       <body className={inter.className}>
         <Header/>
