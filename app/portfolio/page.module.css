@@ -5,25 +5,42 @@
     background-color: #F8F0DE;
     color: #231F20;
     min-height: fit-content;
+    padding: 2rem 2rem 10rem 2rem;
 }
 
 .portfolio_title {
     margin-top: 7rem;
-    font-size: 7vw;
-    text-align: right;
+    font-size: 5vw;
+    text-align: left;
 }
 
 .title_container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 80vw;
 }
 
-.view_all {
-    color: #231F20;
-    border-color: #231F20;
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+  
+.grid_item {
+    text-align: center;
 }
 
-.carousel_container {
-    padding: 1rem 1rem 10rem 1rem;
+.grid_image {
+    width: 100%;
+    height: auto;
+}
+
+.grid_title {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.grid_caption {
+    font-size: 1em;
+    color: #666;
 }

@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import useEmblaCarousel, { UseEmblaCarouselType } from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import './embala-carousel.css'
+import './css/embala-carousel.css'
 import { delay } from 'framer-motion'
 
 export default function EmblaCarousel({ slides }: { slides: string[]} ) {

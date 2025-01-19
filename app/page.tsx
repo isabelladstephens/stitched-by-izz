@@ -2,7 +2,7 @@ import Footer from "./Footer";
 import About from "./about/page";
 import Contact from "./contact/page";
 import styles from "./page.module.css";
-import Portfolio from "./portfolio/page";
+import MyWork from "./components/my-work";
 
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
           </a>
         </main>
       </div>
-      <div id="about">
+      <div id="about" className={styles.about_container}>
         <About/>
       </div>
-      <Portfolio/>
+      <MyWork/>
       <Contact/>
       <img src="/images/quote_image.png" className={styles.quote}/>
       <Footer/>

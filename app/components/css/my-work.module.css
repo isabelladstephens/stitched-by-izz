@@ -1,0 +1,29 @@
+.my_work_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F8F0DE;
+    color: #231F20;
+    min-height: fit-content;
+}
+
+.my_work_title {
+    margin-top: 7rem;
+    font-size: 7vw;
+    text-align: right;
+}
+
+.title_container {
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+}
+
+.view_all {
+    color: #231F20;
+    border-color: #231F20;
+}
+
+.carousel_container {
+    padding: 1rem 1rem 10rem 1rem;
+}

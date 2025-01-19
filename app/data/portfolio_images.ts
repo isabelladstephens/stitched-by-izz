@@ -10,4 +10,9 @@ export const portfolioImages = [
     './images/portfolio_images/main_square_icons/raedress.jpg',
     './images/portfolio_images/main_square_icons/springskirt.jpg',
     './images/portfolio_images/main_square_icons/violetdress.jpg',
+    './images/portfolio_images/main_square_icons/floraloveralls.jpg',
+    './images/portfolio_images/main_square_icons/boxershorts.jpg',
+    './images/portfolio_images/main_square_icons/picnicpants.jpg',
+    './images/portfolio_images/main_square_icons/livdress.jpg',
+    './images/portfolio_images/main_square_icons/whitequarterzip.jpg',
   ];

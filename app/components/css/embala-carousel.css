@@ -1,21 +1,5 @@
-/* .embla__viewport {
-  overflow: hidden;
-}
-.embla__container {
-  display: flex;
-  height: 300px;
-}
-.embla__slide {
-  display: flex;
-  flex: 0 0 100%;
-  min-width: 0;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid blueviolet;
-} */
-
 .embla {
-  max-width: 60rem;
+  max-width: 90%;
   margin: auto;
   --slide-height: 19rem;
   --slide-spacing: 1rem;
