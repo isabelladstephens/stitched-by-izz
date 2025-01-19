@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact_main {
@@ -13,8 +15,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     text-align: center;
+    padding: 10rem 0 10rem 0;
 }
 
 .contact_title {
@@ -31,11 +34,49 @@
 .contact_box {
     background-color: #F8F0DE;
     color: #231F20;
-    width: 70%;
-    height: 70%;
+    width: 70vw;
+    height: 70vh;
     padding: 2em 10em 2em 10em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Medium Devices */
+@media (min-width: 780px) and (max-width: 992px) {
+    .contact_box {
+        padding: 5em 2em 5em 2em;
+    }
+    .contact_title {
+        padding-bottom: 0.5em;
+        font-size: 3vw;
+    }
+
+    .contact_subtitle {
+        text-align: start;
+        margin-bottom: 1em;
+        font-size: 2vw;
+    }
+}
+
+/* Small devices */
+@media (max-width: 779px) {
+    .contact_container {
+        min-height: fit-content;
+    }
+    .contact_box {
+        height:fit-content;
+        padding: 5em 2em 5em 2em;
+    }
+    .contact_title {
+        padding-bottom: 1em;
+        font-size: 4vw;
+    }
+
+    .contact_subtitle {
+        text-align: start;
+        margin-bottom: 1em;
+        font-size: 2vw;
+    }
 }
