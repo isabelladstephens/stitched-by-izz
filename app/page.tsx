@@ -11,11 +11,11 @@ export default function Home() {
         <main className={styles.home_main}>
           <h1 className={styles.title}>stitched by izz</h1>
           <p className={styles.subtitle}>sewing + fashion design</p>
-          <button className={styles.check_it_out}>
-            <a href="#about">
+          <a href="#about">
+            <button className={styles.check_it_out_button}>
               check it out
-            </a>
-          </button>
+            </button>
+          </a>
         </main>
       </div>
       <div id="about">

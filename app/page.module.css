@@ -32,10 +32,11 @@
   text-align: center;
 }
 
-.check_it_out {
+.check_it_out_button {
   margin-top: 10vw;
   font-size: 1.5vw;
   width: 20vw;
+  cursor: pointer;
 }
 
 .title {
@@ -104,7 +105,7 @@
     font-size: 3vw;
   }
 
-  .check_it_out {
+  .check_it_out_button {
     margin-top: 20vw;
     font-size: 3vw;
     width: 40vw;

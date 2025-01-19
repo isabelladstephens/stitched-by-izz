@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: #F8F0DE;
     color: #231F20;
-    min-height: 100vh;
+    min-height: fit-content;
 }
 
 .portfolio_title {
@@ -25,5 +25,5 @@
 }
 
 .carousel_container {
-    padding: 1rem;
+    padding: 1rem 1rem 10rem 1rem;
 }
