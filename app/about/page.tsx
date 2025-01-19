@@ -10,13 +10,13 @@ export default function About() {
                 I&apos;m Isabella, a software developer, but also an aspiring fashion designer 
                 and seamstress from Northern Utah. I love having a creative outlet where I 
                 can wear the art I make. The interplay of textures, colors, and forms allows 
-                me to craft not just garments, but story narratives of style and self-expression. 
+                me to craft not just clothes, but story narratives of style and self-expression. 
             </p>
             <p className={styles.about_subtitle}>
-                In the world of my fashion design is a 
+                In my world of fashion design is a 
                 realm where flowy dresses, playful puffy sleeves, and enchanting details converge. 
                 I love elevating my day-to-day moments with how I dress. With every stitch, I 
-                weave designs that empower me to embrace my true self.
+                create designs that empower me to embrace my true self.
             </p>
         </div>
       </main>

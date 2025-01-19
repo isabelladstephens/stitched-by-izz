@@ -8,6 +8,11 @@ export default function Footer() {
             Shoot me an email.
         </h1>
         <p>hello@stitchedbyizz.com</p>
+        <div className={styles.social_media_container}>
+          <a target="_blank" href="https://www.instagram.com/stitchedbyizz_/">
+            <img className={styles.icon} src="./images/instagram_icon.png" alt="Instagram" />
+          </a>
+        </div>
         <p>© 2021 Stitched By Izz</p>
     </div>
   );
