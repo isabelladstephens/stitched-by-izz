@@ -28,19 +28,29 @@
   
 .grid_item {
     text-align: center;
+    overflow: hidden;
+    aspect-ratio: 1/1;
 }
 
 .grid_image {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid_item:hover .grid_image {
+    transform: scale(1.1);
 }
 
 .grid_title {
     font-size: 1.2em;
     margin: 10px 0 5px;
+    text-align: left;
 }
 
 .grid_caption {
     font-size: 1em;
     color: #666;
+    text-align: left;
+    padding-bottom: 3rem;
 }

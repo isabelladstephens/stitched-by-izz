@@ -4,7 +4,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import './css/embala-carousel.css'
 import { delay } from 'framer-motion'
 
-export default function EmblaCarousel({ slides }: { slides: string[]} ) {
+export default function EmblaCarousel({ slides }: { slides: any[]} ) {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: 6000})])
 
     const scrollPrev = useCallback(() => {
@@ -19,9 +19,9 @@ export default function EmblaCarousel({ slides }: { slides: string[]} ) {
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((src, index) => (
+          {slides.map((image, index) => (
             <div className="embla__slide" key={index}>
-              <img src={src} alt={`Slide ${index + 1}`} className='embla__slide__img'/>
+              <img src={image.path} alt={`Slide ${index + 1}`} className='embla__slide__img'/>
             </div>
           ))}
         </div>
@@ -29,6 +29,9 @@ export default function EmblaCarousel({ slides }: { slides: string[]} ) {
       <div className='button_container'>
         <button className="embla__prev" onClick={scrollPrev}>
           Prev
+        </button>
+        <button className="embla__prev" >
+          <a href="/portfolio">Portfolio</a>
         </button>
         <button className="embla__next" onClick={scrollNext}>
           Next

@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 export default function Header() {
   const pathname = usePathname();
-  const isPortfolioPage = pathname === "/portfolio";
+  const isPortfolioPage = pathname.includes('/portfolio');
 
   return (
     <nav className={`${styles.nav} ${isPortfolioPage ? styles.portfolioNav : ''}`}>
